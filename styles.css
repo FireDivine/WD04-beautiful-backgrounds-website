@@ -1,0 +1,118 @@
+body {
+  background-color: yellow;
+  height: 99vh;
+}
+img {
+  width: fit-content;
+  height: 200px;
+  margin: 15px;
+  padding: 5px;
+}
+h2{
+  font-size: 3em;
+}
+/* mobile */
+@media screen and (min-width: 320px) {
+body{  background-image: repeating-radial-gradient(circle at 17% 32%, rgb(235, 243, 60),rgb(149, 112, 197),rgb(115, 252, 224),rgb(116, 71, 5),rgb(223, 46, 169),rgb(73, 80, 75),rgb(231, 248, 17) 2px);
+}
+h2{
+  font-size: 1.5em;
+}
+img{
+  width: 100px;
+  height:fit-content;
+}}
+/* Tablet */
+@media screen and (min-width: 768px) {
+  body {
+    background-image: radial-gradient(
+        circle at bottom center,
+        rgb(230, 193, 119) 0%,
+        rgb(230, 193, 119) 2%,
+        rgb(225, 164, 104) 2%,
+        rgb(225, 164, 104) 8%,
+        rgb(220, 136, 88) 8%,
+        rgb(220, 136, 88) 18%,
+        rgb(216, 107, 73) 18%,
+        rgb(216, 107, 73) 26%,
+        rgb(211, 78, 57) 26%,
+        rgb(211, 78, 57) 29%,
+        rgb(206, 50, 42) 29%,
+        rgb(206, 50, 42) 31%,
+        transparent 31%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at top center,
+        rgb(230, 193, 119) 0%,
+        rgb(230, 193, 119) 3%,
+        rgb(225, 164, 104) 3%,
+        rgb(225, 164, 104) 9%,
+        rgb(220, 136, 88) 9%,
+        rgb(220, 136, 88) 12%,
+        rgb(216, 107, 73) 12%,
+        rgb(216, 107, 73) 20%,
+        rgb(211, 78, 57) 20%,
+        rgb(211, 78, 57) 30%,
+        rgb(206, 50, 42) 30%,
+        rgb(206, 50, 42) 32%,
+        transparent 32%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at center left,
+        rgb(230, 193, 119) 0%,
+        rgb(230, 193, 119) 4%,
+        rgb(225, 164, 104) 4%,
+        rgb(225, 164, 104) 10%,
+        rgb(220, 136, 88) 10%,
+        rgb(220, 136, 88) 15%,
+        rgb(216, 107, 73) 15%,
+        rgb(216, 107, 73) 18%,
+        rgb(211, 78, 57) 18%,
+        rgb(211, 78, 57) 24%,
+        rgb(206, 50, 42) 24%,
+        rgb(206, 50, 42) 26%,
+        transparent 26%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at center right,
+        rgb(230, 193, 119) 0%,
+        rgb(230, 193, 119) 3%,
+        rgb(225, 164, 104) 3%,
+        rgb(225, 164, 104) 9%,
+        rgb(220, 136, 88) 9%,
+        rgb(220, 136, 88) 12%,
+        rgb(216, 107, 73) 12%,
+        rgb(216, 107, 73) 15%,
+        rgb(211, 78, 57) 15%,
+        rgb(211, 78, 57) 21%,
+        rgb(206, 50, 42) 21%,
+        rgb(206, 50, 42) 24%,
+        rgb(201, 21, 26) 24%,
+        rgb(201, 21, 26) 100%
+      );
+    background-size: 116px 116px;
+  }
+  h2{
+    font-size: 3em;
+  }
+  img{
+    width: 250px;
+    height:fit-content;
+  }
+}
+/* desktop */
+@media screen and (min-width: 1200px) {
+  body{
+    background-image: repeating-linear-gradient(0deg, rgb(177,208,243) 0px, rgb(177,208,243) 2px, transparent 2px, transparent 40px), repeating-linear-gradient(90deg, rgb(177,208,243) 0px, rgb(177,208,243) 2px, transparent 2px, transparent 40px), linear-gradient(white, white);
+  }
+  h2{
+    font-size: 5em;
+  }
+  img{
+    width: 400px;
+    height:fit-content;
+  }
+}
